@@ -8,12 +8,7 @@ import About from "./components/Pages/About";
 
 class App extends Component {
   state = {
-    todos: [
-      { id: 1, title: "first todo", completed: false },
-      { id: 2, title: "second todo", completed: false },
-      { id: 3, title: "third todo", completed: false },
-      { id: 4, title: "fourth todo", completed: false }
-    ]
+    todos: []
   };
   markComplete = id => {
     this.setState({
